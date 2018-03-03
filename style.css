@@ -1,0 +1,152 @@
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  color: white;
+  overflow-x: hidden;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+
+.main {
+  margin-left: 200px; 
+}
+h1{
+	font-family: 'Asap', sans-serif;
+	margin: 5% 0%;
+	text-align: left;
+	margin-bottom: 10%;
+}
+
+h2{
+	font-family: 'Roboto Slab', serif;
+	margin: 1% 0%;
+	text-align: left;
+	color: red;
+	font-size: 40px;
+}
+
+h3{
+	font-family: "Lato", sans-serif;
+	margin: 5% 0%;
+	text-align: left;
+	margin-bottom: 10%;
+}
+
+p{
+	margin-bottom: 5%;
+	text-align: left;
+	font-family: 'Asap', sans-serif;
+}
+
+
+
+.resize{
+	height: 100%;
+	width: 100%;
+}
+
+.botonblanco{
+	display: block;
+	margin: auto;
+	background-color: white;
+	color: black;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.botonblanco:hover{
+	background-color: black;
+    color: white;
+}
+
+.botonrojo{
+	display: block;
+	margin: auto;
+	background-color: red;
+	color: white;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+.botonrojo:hover{
+	background-color: black;
+    color: white;
+}
+
+.rectangle{
+  width:100px;
+  height:10px;
+  background:red;
+  border-radius: 35%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.centrado{
+	text-align: center;
+	margin: 1%;
+}
+
+#tablagris{
+	background-color: #696969;
+	color:white;
+	font-family: 'Asap', sans-serif;
+	font-size: 30px;
+	margin: 30px;
+	text-align: center;
+	padding: 5%;
+}
+
+#tablaroja{
+	background-color: red;
+	color:white;
+	font-family: 'Asap', sans-serif;
+	font-size: 30px;
+	margin: 30px;
+	text-align: center;
+	padding: 5%;
+}
+
+
+#fondogris{
+	background-color: #DCDCDC;
+}
+
+#bold{
+	font-weight: bold;
+}
+
+.alinear{
+	display: block;
+	margin: auto;
+}
+
+.full{
+	color: white;
+	background-color: red;
+	width: 100%;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+.full:hover{
+	background-color: #4CAF50;
+    color: white;
+}
+footer{
+	margin-left: 0px;
+	background-color: black;
+	color: white;
+	padding-left: 15px;
+	padding-top: 15px;
+}
+
+#position{
+	text-align: right;
+}
